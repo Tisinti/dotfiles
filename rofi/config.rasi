@@ -1,0 +1,14 @@
+configuration {
+  display-drun: "Applications";
+  show-icons: true;
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+@theme "./rounded-purple-dark.rasi"

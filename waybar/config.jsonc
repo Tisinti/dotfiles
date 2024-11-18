@@ -1,0 +1,73 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 35,
+    "spacing": 5,
+
+    // Choose the order of the modules
+    "modules-left": ["custom/power","custom/reboot","custom/screenshot"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["custom/notifications","network","pulseaudio/slider","pulseaudio", "clock"],
+
+    // Modules configuration
+
+     "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": false,
+         "format": "{name}"
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": " ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "{icon} {format_source}",
+        "format-muted": "{format_source}",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click-right": "pavucontrol"
+    },
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    },
+    "custom/power":{
+        "format": " \u23fb ",
+        "on-click": "poweroff"
+    },
+    "custom/reboot":{
+        "format": "",
+        "on-click": "reboot"
+    },
+    "custom/notifications": {
+        "format": " 󰂚 ",
+        "on-click": "swaync-client -t -sw"
+    },
+    "custom/screenshot": {
+        "format": " ",
+        "on-click": "hyprshot -m region --clipboard-only"
+    }
+}

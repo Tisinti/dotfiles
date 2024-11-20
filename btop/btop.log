@@ -1,3 +1,7 @@
 
 2024/11/15 (18:12:26) | ===> btop++ v.1.4.0
 2024/11/15 (18:12:26) | WARNING: Failed to set locale en_US.UTF-8 continuing anyway.
+
+2024/11/18 (18:37:10) | ===> btop++ v.1.4.0
+2024/11/18 (18:37:10) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/11/18 (18:37:10) | ERROR: Couldn't determine terminal size of "/dev/tty"!

@@ -22,14 +22,14 @@ window#waybar.hidden {
 }
 #workspaces button {
     background: @base;
-    color: @text_bright;
+    color: @text_dark;
     border-radius: 20px;
     margin: 1px;
     margin-top: 5px;
 }
 #workspaces button:hover {
     background: @highlight;
-    color: @text_dark; 
+    color: @text_bright; 
 }
 #workspaces button.active {
     background: @main;
@@ -92,13 +92,13 @@ window#waybar.hidden {
     min-height: 5px;
     min-width: 0px;
     border-radius: 5px;
-    background-color: @text_dark;
+    background-color: @base;
 }
 #pulseaudio-slider highlight {
     min-height: 5px;
     min-width: 0px;
     border-radius: 5px;
-    background-color: @main;
+    background-color: @highlight;
 }
 
 #network {
@@ -132,7 +132,7 @@ window#waybar.hidden {
 #custom-power{
     background-color: @main;
     color: @text_dark;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 0px;
     margin-top: 5px;
 }
 

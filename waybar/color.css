@@ -1,6 +1,6 @@
-@define-color highlight #f2d5cf;
+@define-color highlight #D3BF2E;
 @define-color urgent #ea999c;
-@define-color main #babbf1;
-@define-color text_bright #c6d0f5;
-@define-color text_dark #232634;
+@define-color main #2A8232; 
+@define-color text_bright #414D3E;
+@define-color text_dark #E0E3D8;
 @define-color base #303446;

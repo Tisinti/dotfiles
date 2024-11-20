@@ -1,9 +1,9 @@
-include Night.conf
+include 'Birds of Paradise.conf'
 
 font_family       FiraCode Nerd Font
 bold_font         FiraCode Nerd Font Bold
 italic_font       FiraCode Nerd Font Italic
 bold_italic_font  FiraCode Nerd Font Bold Italic
 
-background_opacity 0.7
+background_opacity 0.75
 confirm_os_window_close 2

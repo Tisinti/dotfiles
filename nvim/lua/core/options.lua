@@ -26,7 +26,7 @@ opt.fillchars = { eob = " " }
 opt.ignorecase = true
 opt.smartcase = true
 
--- disable mouse
+-- enable mouse
 opt.mouse = "a"
 
 -- numberline

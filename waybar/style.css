@@ -98,7 +98,7 @@ window#waybar.hidden {
     min-height: 5px;
     min-width: 0px;
     border-radius: 5px;
-    background-color: @highlight;
+    background-color: @main;
 }
 
 #network {

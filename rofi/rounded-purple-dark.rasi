@@ -2,8 +2,8 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    bg0:    #303446F2;
-    bg1:    #292c3c;
+    bg0:    #090200cc;
+    bg1:    #090200cc;
     bg2:    #23263480;
     bg3:    #2A8232F2;
     fg0:    #c6d0f5;

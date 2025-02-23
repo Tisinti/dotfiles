@@ -57,3 +57,7 @@ opt.undofile = true
 
 -- interval for writing swap file to disk, also used by gitsigns
 opt.updatetime = 250
+
+-- wrap long lines by words
+opt.wrap = true
+opt.linebreak = true

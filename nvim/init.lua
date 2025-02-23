@@ -30,6 +30,7 @@ require("configs.neotestconfig")
 require("configs.cmpconfig")
 require("configs.texconfig")
 require("configs.lspconfig")
+require("configs.formatterconfig")
 
 
 vim.cmd("colorscheme night-owl")

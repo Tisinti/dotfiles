@@ -1,0 +1,23 @@
+[manager]
+show_hidden = false
+
+[opener]
+edit = [
+  {run = 'nvim "$@"', block = true, for = "unix"}
+]
+pdf = [
+{run = 'zathura "$@"', orphan = true, for = "unix"}
+]
+web = [
+{run = 'firefox "$@"', orphan = true, for = "unix"}
+]
+
+[open]
+append_rules = [
+	{ name = "*", use = "edit" },
+]
+rules = [
+{name = "*.pdf", use = "pdf"},
+{name = "*.html", use = "web"}
+]
+
